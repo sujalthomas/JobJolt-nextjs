@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 
+import image from "../assets/landing.png";
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
       
       <div>
       <img 
-    src="/src/assets/landing.png" 
+    src={image} 
     alt="Landing Illustration" 
     className="absolute justify-center max-h-[90vh] w-auto mx-auto mt-[26vh] left-0 right-0 ml-auto mr-auto" 
 />

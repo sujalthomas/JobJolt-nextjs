@@ -33,6 +33,7 @@ import screen4 from "../assets/gallery/screen4.png";
 import screen8 from "../assets/gallery/screen8.png";
 import screen9 from "../assets/gallery/screen9.png";
 
+
 export const navLinks = [
   {
     id: "about",
