@@ -1,9 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
-import { Analytics } from '@vercel/analytics/react';
+import { inject } from '@vercel/analytics';
+
 
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Works, StarsCanvas, } from "./components";
 
 const App = () => {
+
+  inject();
+
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary p-0'>
@@ -23,7 +27,6 @@ const App = () => {
         </div>
 
       </div>
-      <Analytics />
     </BrowserRouter>
   );
 }
