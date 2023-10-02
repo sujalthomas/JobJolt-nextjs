@@ -9,7 +9,7 @@ import { faqs } from "../constants";
 
 const FAQCard = ({ index, question, answer }) => (
   <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+    variants={fadeIn("", "spring", index * 0.05, 0.15)}
   >
   <Tilt 
     options={{

@@ -10,7 +10,7 @@ import { appScreenshots } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const AppScreenshotCard = ({ index, name, description, image }) => (
-  <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+  <motion.div variants={fadeIn("up", "spring", index * 0.05, 0.15)}>
     <Tilt
       options={{
         max: 45,
