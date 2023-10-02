@@ -36,7 +36,7 @@ const FAQs = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Frequently Asked</p>
-          <h2 className={styles.sectionHeadText}>Questions.</h2>
+          <h2 className={styles.sectionHeadText}>Questions</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>

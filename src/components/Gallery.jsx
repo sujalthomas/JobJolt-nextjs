@@ -40,8 +40,8 @@ const AppGallery = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My Apps</p>
-        <h2 className={`${styles.sectionHeadText}`}>Gallery.</h2>
+        <p className={`${styles.sectionSubText} `}>My App</p>
+        <h2 className={`${styles.sectionHeadText}`}>Gallery</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -49,7 +49,7 @@ const AppGallery = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Explore the collection of app screenshots that showcase my work. Each screenshot represents an app that I've developed or been a part of, reflecting my ability to design and develop user-friendly interfaces.
+          Explore the collection of app screenshots that showcase the features and UI of Job Jolt.
         </motion.p>
       </div>
 

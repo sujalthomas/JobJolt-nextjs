@@ -1,30 +1,3 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-
-} from "../assets";
 
 import ssone from "../assets/gallery/ssone.png";
 import screen2 from "../assets/gallery/screen2.png";
@@ -32,6 +5,7 @@ import screen3 from "../assets/gallery/screen3.png";
 import screen4 from "../assets/gallery/screen4.png";
 import screen8 from "../assets/gallery/screen8.png";
 import screen9 from "../assets/gallery/screen9.png";
+import jjlogo from "../assets/jjlogo.png";
 
 
 export const navLinks = [
@@ -96,65 +70,10 @@ const services = [
 
 
 
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
-
 const experiences = [
   {
     title: "Installation",
-    icon: starbucks,
+    icon: jjlogo,
     iconBg: "#383E56",
     date: "Step 1",
     points: [
@@ -165,8 +84,8 @@ const experiences = [
   },
   {
     title: "Initial Setup",
-    icon: tesla,
-    iconBg: "#E6DEDD",
+    icon: jjlogo,
+    iconBg: "black",
     date: "Step 2",
     points: [
       "Open the extension and complete the login process.",
@@ -177,7 +96,7 @@ const experiences = [
   },
   {
     title: "Application on LinkedIn",
-    icon: shopify,
+    icon: jjlogo,
     iconBg: "#383E56",
     date: "Step 3",
     points: [
@@ -189,8 +108,8 @@ const experiences = [
   },
   {
     title: "Witness AI Capabilities",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: jjlogo,
+    iconBg: "black",
     date: "Step 4",
     points: [
       "Experience how AI discerns crucial job details.",
@@ -201,8 +120,8 @@ const experiences = [
   },
   {
     title: "Final Submission",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: jjlogo,
+    iconBg: "#383E56",
     date: "Step 5",
     points: [
       "With AI-backed cover letter and resume in hand, make a lasting impact.",
@@ -268,16 +187,16 @@ const appScreenshots = [
   },
   {
     name: "Screen 5",
-    description: "Generating a cv with JJ",
+    description: "Generating a cv with Job Jolt",
     image: screen8
   },
   {
     name: "Screen 6",
-    description: "Automatic download of generated cv",
+    description: "Automatic download of generated CV",
     image: screen9
   }
 
 ];
 
 
-export { services, technologies, experiences, faqs, appScreenshots };
+export { services, experiences, faqs, appScreenshots };

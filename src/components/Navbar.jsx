@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import {  menu, close } from "../assets";
+
+import jjlogo from "../assets/jjlogo.png";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -53,8 +55,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+<img src={jjlogo} alt='logo' className='h-12 w-auto object-contain' />
+
+
+
+          <p className='bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex '>
             Job Jolt &nbsp;
             <span className='sm:block hidden'> | Sujal Thomas</span>
           </p>
