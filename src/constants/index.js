@@ -77,9 +77,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Step 1",
     points: [
-      "Navigate to the Chrome Web Store and search for 'Lynk Tools'.",
+      "Navigate to the Chrome Web Store and search for 'Job Jolt'.",
       "Alternatively, follow the link provided to directly access the extension.",
-      "After successful installation, look for the Lynk Tools icon on your browser toolbar."
+      "After successful installation, look for the Job Jolt icon on your browser toolbar."
     ],
   },
   {
@@ -101,7 +101,7 @@ const experiences = [
     date: "Step 3",
     points: [
       "Go to a LinkedIn job page of your preference.",
-      "Identify the Lynk Tools buttons integrated for your ease.",
+      "Identify the Job Jolt buttons integrated for your ease.",
       "With a single click, create a custom cover letter or a revised resume.",
       "Witness the blend of automation with a personal touch."
     ],
@@ -127,7 +127,7 @@ const experiences = [
       "With AI-backed cover letter and resume in hand, make a lasting impact.",
       "Submit your applications with added confidence and quality assurance.",
       "Boost the probability of securing interviews and job offers.",
-      "Embrace the next generation of job applications with Lynk Tools."
+      "Embrace the next generation of job applications with Job Jolt."
     ],
   },
 ];
@@ -136,28 +136,28 @@ const experiences = [
 
 const faqs = [
   {
-    question: "What makes Lynk Tools unique compared to other job tools?",
-    answer: "Lynk Tools offers direct integration with LinkedIn, enabling a seamless experience to craft tailored cover letters and enhanced resumes. At its heart is GPT-3.5 Turbo, ensuring your documents align perfectly with the job description, providing a distinct edge in the job market."
+    question: "What makes Job Jolt unique compared to other job tools?",
+    answer: "Job Jolt offers direct integration with LinkedIn, enabling a seamless experience to craft tailored cover letters and enhanced resumes. At its heart is GPT-3.5 Turbo, ensuring your documents align perfectly with the job description, providing a distinct edge in the job market."
   },
   {
-    question: "How efficient is the cover letter generation with Lynk Tools?",
+    question: "How efficient is the cover letter generation with Job Jolt?",
     answer: "You can generate a custom cover letter for a specific LinkedIn job in a remarkable 20 seconds or less. It's designed for efficiency and enhancing your application's impact."
   },
   {
     question: "How reliable is the resume revamping feature and the costs associated?",
-    answer: "Though our resume feature is in beta, it employs sophisticated algorithms to match job descriptions. We advise fine-tuning its suggestions. Moreover, Lynk Tools is completely free! We appreciate positive reviews and support for our other projects."
+    answer: "Though our resume feature is in beta, it employs sophisticated algorithms to match job descriptions. We advise fine-tuning its suggestions. Moreover, Job Jolt is completely free! We appreciate positive reviews and support for our other projects."
   },
   {
-    question: "How does Lynk Tools improve my LinkedIn application process?",
-    answer: "Lynk Tools, with just a click, pulls essential details from job listings, such as company info and recruiter data, streamlining and personalizing your application process."
+    question: "How does Job Jolt improve my LinkedIn application process?",
+    answer: "Job Jolt, with just a click, pulls essential details from job listings, such as company info and recruiter data, streamlining and personalizing your application process."
   },
   {
-    question: "How does Lynk Tools prioritize data security?",
-    answer: "Your privacy is our top concern. Lynk Tools has robust security layers to ensure data protection. Only crucial information is retained, with everything else being automatically deleted for your security."
+    question: "How does Job Jolt prioritize data security?",
+    answer: "Your privacy is our top concern. Job Jolt has robust security layers to ensure data protection. Only crucial information is retained, with everything else being automatically deleted for your security."
   },
   {
-    question: "How can I interact and integrate with Lynk Tools?",
-    answer: "We always welcome feedback. For any issues or suggestions, or if you want to leverage GPT-4 with Lynk Tools, please contact our support team via our website or the extension's feedback form."
+    question: "How can I interact and integrate with Job Jolt?",
+    answer: "We always welcome feedback. For any issues or suggestions, or if you want to leverage GPT-4 with Job Jolt, please contact our support team via our website or the extension's feedback form."
   }
 ];
 
