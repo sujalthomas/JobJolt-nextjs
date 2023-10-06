@@ -22,7 +22,7 @@ const Hero = () => {
       </div>
 
       {/* Image */}
-      <div className="flex justify-center items-center mb-10">
+      <div className="flex justify-center items-center mb-1">
         <img 
           src={image} 
           alt="An illustrative image for landing page" 
@@ -40,7 +40,7 @@ const Hero = () => {
               repeat: Infinity,
               repeatType: "loop"
             }}
-            className="w-3 h-3 rounded-full bg-secondary mb-1"
+            className="w-3 h-3 rounded-full bg-secondary mb-2"
           />
         </a>
       </div>
