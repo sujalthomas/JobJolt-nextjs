@@ -4,9 +4,9 @@ import image from "../assets/landing.png";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col justify-between w-full h-screen mx-auto overflow-hidden relative">
+    <section className="flex flex-col justify-center w-full mx-auto overflow-hidden relative lg:h-screen pt-8 lg:pt-16">
       {/* Hero content */}
-      <div className={`flex flex-col justify-center items-center max-w-7xl mx-auto ${styles.paddingX} mt-20`}>
+      <div className={`flex flex-col justify-center items-center max-w-7xl mx-auto ${styles.paddingX} mt-16 lg:mt-32`}>
         {/* Hero title and subtitle */}
         <div>
           <h1 className={`${styles.heroHeadText} mt-2 text-white`}>

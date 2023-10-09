@@ -39,10 +39,8 @@ const AppScreenshotCard = ({ index, name, description, image }) => (
 const AppGallery = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My App</p>
         <h2 className={`${styles.sectionHeadText}`}>Gallery</h2>
-      </motion.div>
 
       <div className='w-full flex'>
         <motion.p

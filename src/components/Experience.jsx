@@ -65,14 +65,12 @@ const ExperienceCard = ({ experience }) => {
 const Experience = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} text-center`}>
           How to use
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Flow
         </h2>
-      </motion.div>
 
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>

@@ -1,17 +1,19 @@
 const styles = {
-  paddingX: "sm:px-16 px-6",
-  paddingY: "sm:py-16 py-6",
-  padding: "sm:px-16 px-6 sm:py-16 py-10",
+  paddingX: "px-6 sm:px-16",
+  paddingY: "py-6 sm:py-16",
+  padding: "py-10 px-6 sm:px-16 sm:py-16",
 
-  heroHeadText:
-    "font-black textcyan-100 lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2",
-  heroSubText:
-    "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
+  heroHeadText: 
+    "font-black text-white mt-2 leading-[98px] text-4xl xs:text-5xl sm:text-6xl lg:text-8xl",
+  
+  heroSubText: 
+    "font-medium mt-2 text-[#dfd9ff] text-lg xs:text-xl sm:text-2xl lg:text-3xl leading-[40px]",
 
-  sectionHeadText:
-    "bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-transparent font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
-  sectionSubText:
-    "text-cyan-100 sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+  sectionHeadText: 
+    "bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-transparent font-black text-3xl xs:text-4xl sm:text-5xl md:text-6xl",
+  
+  sectionSubText: 
+    "text-cyan-100 text-secondary uppercase tracking-wider text-sm sm:text-base",
 };
 
 export { styles };
