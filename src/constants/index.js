@@ -1,11 +1,11 @@
 
-import ssone from "../assets/gallery/ssone.png";
-import screen2 from "../assets/gallery/screen2.png";
-import screen3 from "../assets/gallery/screen3.png";
-import screen4 from "../assets/gallery/screen4.png";
-import screen8 from "../assets/gallery/screen8.png";
-import screen9 from "../assets/gallery/screen9.png";
-import jjlogo from "../assets/jjlogo.png";
+import ssone from "../assets/gallery/ssone.webp";
+import screen2 from "../assets/gallery/screen2.webp";
+import screen3 from "../assets/gallery/screen3.webp";
+import screen4 from "../assets/gallery/screen4.webp";
+import screen8 from "../assets/gallery/screen8.webp";
+import screen9 from "../assets/gallery/screen9.webp";
+import jjlogo from "../assets/jjlogo.webp";
 
 
 export const navLinks = [

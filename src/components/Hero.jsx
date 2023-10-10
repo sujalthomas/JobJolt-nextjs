@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import image from "../assets/landing.png";
+import image from "../assets/landing.webp";
 
 const Hero = () => {
   return (

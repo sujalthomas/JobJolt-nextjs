@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import {  menu, close } from "../assets";
 
-import jjlogo from "../assets/jjlogo.png";
+import jjlogo from "../assets/jjlogo.webp";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
