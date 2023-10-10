@@ -10,13 +10,13 @@ const Hero = () => {
         {/* Hero title and subtitle */}
         <div>
           <h1 className={`${styles.heroHeadText} mt-2 text-white`}>
-            Meet <span className="bg-gradient-to-r from-blue-800 to-indigo-800 bg-clip-text text-transparent">Job Jolt</span>
+            Meet <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent">Job Jolt</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Harness AI magic to craft personalized 
-            <span className="bg-gradient-to-r from-purple-500 to-indigo-800 bg-clip-text text-transparent"> cover letters </span>
+            <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent"> cover letters </span>
             with a 
-            <span className="bg-gradient-to-r from-purple-500 to-indigo-800 bg-clip-text text-transparent"> single click! </span>
+            <span className="bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent"> single click! </span>
           </p>
         </div>
       </div>

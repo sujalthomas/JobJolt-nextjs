@@ -66,7 +66,7 @@ const Navbar = () => {
             }}
           >
             <img src={jjlogo} alt='logo' className='h-12 w-auto object-contain' />
-            <p className='bg-gradient-to-r from-blue-600 to-cyan-500 bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex '>
+            <p className='bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent text-[18px] font-bold cursor-pointer flex '>
               Job Jolt &nbsp;
               <span className='sm:block hidden'> | Sujal Thomas</span>
             </p>

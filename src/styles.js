@@ -10,7 +10,7 @@ const styles = {
     "font-medium mt-2 text-[#dfd9ff] text-lg xs:text-xl sm:text-2xl lg:text-3xl leading-[40px]",
 
   sectionHeadText: 
-    "bg-gradient-to-r from-blue-700 to-cyan-600 bg-clip-text text-transparent font-black text-3xl xs:text-4xl sm:text-5xl md:text-6xl",
+    "bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent font-black text-3xl xs:text-4xl sm:text-5xl md:text-6xl",
   
   sectionSubText: 
     "text-cyan-100 text-secondary uppercase tracking-wider text-sm sm:text-base",
