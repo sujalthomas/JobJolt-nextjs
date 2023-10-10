@@ -63,12 +63,11 @@ const About = () => {
       <p className={styles.sectionSubText}>Introduction</p>
       <h2 className={styles.sectionHeadText}>Overview</h2>
 
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+      <p
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         Navigating the complex labyrinth of job applications on LinkedIn just became a breeze! Introducing Job Jolt, an avant-garde Chrome extension designed to streamline and amplify your LinkedIn application experience.
-      </motion.p>
+      </p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
